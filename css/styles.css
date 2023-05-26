@@ -31,6 +31,7 @@ body {
   background-color: var(--color-white);
   letter-spacing: 0.02em;
   color: #434455;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   margin: 0 auto;
@@ -91,19 +92,20 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media only screen and (max-width: 1158px) {
+/* @media only screen and (max-width: 1158px) {
   .section {
     padding: 96px 0;
     min-width: 320px;
   }
-}
+} */
 @media only screen and (min-width: 1158px) {
   .section {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
-    .section:not(:nth-child(-2n + 3)) {
+    /* .section:not(:nth-child(-2n + 3)) {
       padding-top: 120px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 768px) {

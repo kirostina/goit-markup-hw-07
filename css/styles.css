@@ -639,6 +639,7 @@ ul {
 .social {
   width: 40px;
   height: 40px;
+  display: flex;
 }
 .social-link {
   width: 100%;

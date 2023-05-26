@@ -869,6 +869,22 @@ ul {
   background-color: var(--color-white);
   padding: 75px 0 120px;
 }
+ @media only screen and (min-width: 768px) and (max-width: 1158px) {
+  .porfolio-section .img-list {
+   row-gap: 72px;
+ }
+ }
+    @media only screen and (min-width: 768px) {
+      .porfolio-section .img_list {
+      width: calc((100% - 24px) / 2);
+    }
+  }
+  
+    @media only screen and (min-width: 1158px) {
+      .porfolio-section .img_list {
+      width: calc((100% - 48px) / 3);
+    }
+    }
 .porfolio-section h1 {
   line-height: 1.07;
   text-align: center;
@@ -880,6 +896,19 @@ ul {
   gap: 24px;
   margin-bottom: 72px;
   margin-top: auto;
+}
+@media only screen and (min-width: 768px) {
+  .buttons-list {
+  justify-content: center;
+  margin-bottom: 64px;
+}
+}
+
+@media only screen and (min-width: 1158px) {
+  .buttons-list {
+  justify-content: center;
+  margin-bottom: 72px;
+}
 }
 .btns-other {
   font-family: "Roboto", sans-serif;

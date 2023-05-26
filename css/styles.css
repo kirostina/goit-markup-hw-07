@@ -100,6 +100,9 @@ img {
   .section {
     padding-bottom: 120px;
   }
+    .section:not(:nth-child(-2n + 3)) {
+      padding-top: 120px;
+    }
 }
 
 @media only screen and (max-width: 768px) {

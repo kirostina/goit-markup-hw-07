@@ -443,6 +443,11 @@ li {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) {
+  .address {
+    display: flex;
+  }
+}
 .address-list {
   display: flex;
   gap: 40px;

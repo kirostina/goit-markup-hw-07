@@ -352,6 +352,11 @@ li {
   display: flex;
   gap: 40px;
 }
+@media only screen and (max-width: 768px) {
+  .top {
+    display: none;
+  }
+}
 .top-menu {
   display: flex;
   gap: 40px;

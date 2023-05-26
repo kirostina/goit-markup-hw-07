@@ -240,6 +240,10 @@ li {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: auto;
+  max-width: 1440px;
+  text-align: center;
+  padding: 112px 0;
 }
  @media only screen and (min-device-pixel-ratio: 2) and (max-width: 428px),
  only screen and (min-resolution: 192dpi) and (max-width: 428px),

@@ -237,7 +237,6 @@ img {
 @media only screen and (max-width: 768px) {
   .container_hero {
     max-width: 320px;
-    display: none;
   }
 }
 .nav-menu {

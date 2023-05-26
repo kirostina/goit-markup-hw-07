@@ -44,6 +44,7 @@ h5,
 h6,
 p,
 ul {
+  text-align: center;
   margin: 0;
   padding: 0;
 }
@@ -828,6 +829,7 @@ ul {
   gap: 16px;
 }
 .footer-list-icons {
+  display: none;
   width: 40px;
   height: 40px;
 }
